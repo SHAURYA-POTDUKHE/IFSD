@@ -1,1 +1,81 @@
+Assignment 1
 
+Problem Statement: An online store requires a shopping cart system. This becomes our project's goal.
+
+Development Phase:
+Our full stack development team starts coding. Front-end developers create the user interface that customers will interact with. Back-end developers set up the server, database, and APIs to handle data and business logic.
+
+Requestor/Client/User:
+As development progresses, we create the client-side application. This is what users will see and interact with in their web browsers or mobile apps.
+
+Request/Response:
+We implement the communication between the client and server. When a user adds an item to their cart, the client sends a request to the server. The server processes this and sends back a response.
+
+Provider/Server/Host:
+Our back-end team ensures the server is set up to handle these requests, process them, interact with the database, and send appropriate responses.
+
+Protocols:
+We decide on and implement the necessary protocols for secure and efficient communication, likely using HTTPS for security.
+
+Testing Phase:
+Once the initial development is complete, we rigorously test the application. We check for bugs, ensure the cart calculates totals correctly, and verify that the user experience is smooth.
+
+Deployment:
+After successful testing, we move to deployment. We set up the production environment and move our application from development servers to live servers.
+
+Delivery:
+The application is now ready for users. We might do a soft launch to a small group of users first.
+
+GA (General Availability):
+Finally, we fully launch the shopping cart system, making it available to all customers of the online store.
+
+Published:
+We might publish documentation for the API if other systems need to integrate with our shopping cart, or simply mark the project as complete and published.
+
+
+
+Assignment 2
+Problem Statement: What data will you store in the shopping cart?
+
+In a shopping cart for an e-commerce application, the following data is typically stored:
+
+1. User ID: 
+   - Identifies the user who owns the cart. This can be linked to a registered user account or a session ID for guest users.
+
+2. Cart ID:
+   - A unique identifier for the shopping cart itself.
+
+3. Products/Items:
+   - Product ID: A unique identifier for each product added to the cart.
+   - Product Name: The name of the product.
+   - Quantity: The number of units of the product the user wants to purchase.
+   - Price: The price per unit of the product at the time it was added to the cart.
+   - Total Price: The total price for that product (quantity * price).
+   - Product Options: Any variations like size, color, or other attributes selected by the user.
+
+4. Timestamps:
+   - Date Added: When the product was added to the cart.
+   - Last Updated: When the cart or product was last modified.
+
+5. Availability Status:
+   - Indicates whether the item is still available, out of stock, or on backorder.
+
+6. Discounts/Promotions:
+   - Discount Code: Any promo code applied to the cart.
+   - Discount Amount: The amount of discount applied to each product or the total cart.
+
+7. Subtotal:
+   - The total cost of all items in the cart before taxes, shipping, and discounts.
+
+8. Shipping Information:
+   - Shipping Method: Selected shipping option (e.g., standard, express).
+   - Shipping Cost: The cost associated with the chosen shipping method.
+
+9. Tax Information:
+   - Tax Rate: The applicable tax rate based on the user's location.
+   - Tax Amount: The calculated tax for the cart items.
+
+10. Session Information (if applicable):
+    - Information related to the user's session, such as session ID and session expiration time.
+
+This data ensures that the shopping cart can accurately reflect the user's selections and preferences, even if they leave the site and return later.
